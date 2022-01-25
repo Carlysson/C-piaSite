@@ -1,0 +1,231 @@
+body  {
+    margin: 0px;
+    padding: 0px;
+    background-color: #f0f2f5;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, p, ul, li  {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+letter-spacing: 0px;
+display: flex;
+}
+
+#fechar {
+margin-left: 180px;
+margin-top: -2%;
+font-family: Calibri;
+font-size: 125%;
+color: gray;
+}
+
+h2 {
+margin-bottom: 5px;
+}
+
+p {
+margin-bottom: 10px;
+margin-top: -2%;
+}
+
+
+hr {
+border-top: 1px solid #dadde1; 
+margin-bottom: 30px;
+}
+
+main  {
+    display: flex;
+    justify-content: center;
+}
+
+.main--conteiner  {
+    border: px solid rgb(0, 0, 0);
+    max-width: 1000px;
+    height:calc(155vh - 250px);
+    padding: 23px 50px;
+    
+}
+
+.main--description {
+    border: 0px solid rgb(0, 0, 0);
+
+}
+
+.main--description h1 {
+    font-family: 'Mulish', sans-serif;
+    color: #1877f2;
+    font-size: 50px;
+    
+}
+
+.main--login {
+border: 2px solid #fff;
+border-radius: 10px;
+}
+
+.main--card {
+background-color: #fff;
+border-radius: 7px;
+box-shadow: opx 5px 10px #ccc;
+width: 400px;
+padding: 15px;
+text-align: center;
+}
+
+.main--card input {
+width: 40%;
+margin-bottom: 15px;
+font-size: 13px;
+padding: 12px;
+border: 1px solid #ccc;
+background-color: #f3f3f3;
+border-radius: 5px;
+outline: none;
+}
+
+
+
+.main--card button {
+width: 50%;
+margin-bottom: 15px;
+border: none;
+border-radius: 5px;
+padding: 12px;
+background-color: #42b72a;
+color: #fff;
+font-size: 20px;
+font-weight: bold;
+transition: .3s;
+}
+
+.main--card button:hover {
+background-color: #439c32;
+}
+
+#hr1 {
+margin-right: -4.5%;
+margin-left: -4.2%;
+}
+
+p {
+font-family: Arial;
+font-size: 15px;
+color: #595959;
+}
+
+.nomes {
+width: 103%;
+}
+
+.email {
+width: 228%;
+}
+
+#pnome {
+margin-right: 6px;
+}
+
+.senha {
+width: 228%;
+}
+
+select {
+width: 30%;
+display: inline-block;
+border: 1px solid #ccc;
+padding: 10px;
+margin: 2px 10px 8px 0px;
+border-radius: 4px;
+
+}
+
+.nascimento {
+font-size: 13px;
+font-family: Arial;
+color: #595959;
+}
+
+#Gen {
+font-size: 13px;
+font-family: Arial;
+color: #595959;
+}
+
+.payment-methods {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.payment-methods:after {
+content: "";
+clear: both;
+}
+
+.payment-method {
+float: left;
+height: 30px;
+width: 110px;
+font-size: 15px;
+font-family: Arial;
+color: #383636;
+position: relative;
+box-sizing: border-box;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+.payment-method + .payment-method {
+margin-left: 25px;
+}
+.genero {
+margin-bottom: 10px;
+}
+
+.cadastro {
+margin-top: 25px;
+}
+
+.main--btn {
+margin-bottom: 10px;
+display: flex;
+justify-content: center;
+}
+
+.main--btn a {
+max-width: 50%;
+text-decoration: none;
+background-color: #42b72a;
+padding: 15px;
+color: #fff;
+border-radius: 5px;
+font-weight: bold;
+transition: .3s;
+}
+
+.main--btn a:hover {
+background-color: #3ea829;
+}
+
+.p2 {
+margin-top: 42px;
+font-size: 11px;
+}
+
+.p2 a {
+text-decoration: none;
+color: #27368c;
+}
+
+.p2 a:hover {
+text-decoration: underline;
+}
+
+.cadastro {
+margin-left: 100px;
+}
